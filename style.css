@@ -1,5 +1,5 @@
 table, th, td {
-  /*border-collapse: collapse;*/
+  border-collapse: separate;
   border : 2px darkblue solid;
   
 }
@@ -13,4 +13,9 @@ table{
 
 table.classTable{
   empty-cells: hide;
+}
+
+#name {
+  color:darkblue;
+  background-color:lightblue ;
 }
